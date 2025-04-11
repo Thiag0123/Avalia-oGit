@@ -1,6 +1,6 @@
 # Avalia-oGit
 
-##Integrantes do grupo
+## Integrantes do grupo
 - Thiago Moreira Antoniassi
 - José Carlos Braga
 
