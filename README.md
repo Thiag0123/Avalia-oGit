@@ -10,9 +10,9 @@ Desenvolver colaborativamente um algoritmo em Portugol de subtração e adiçao
 ## Etapas realizadas por cada membro
 
 ### Thiago Moreira
-- Como criou? 
-- Como Configurou o Git? não deixe exposto sua chave.
-- Criou o arquivo `algoritmo.pg` com a estrutura inicial:
+  Criei o repositorio e criei os commit
+  Segui o tutorial git deluxe.v2
+ Criou o arquivo `algoritmo.por` com a estrutura inicial: soma
 - fez o que? depois?...
 
 ### Ciclana Souza
@@ -25,7 +25,85 @@ Desenvolver colaborativamente um algoritmo em Portugol de subtração e adiçao
 
 ## Comandos utilizados
 todos do tutorial
-### Comandos de Fulano
+
+### comandos de Thiago
+
+compuni@Lab6m219 MINGW64 ~
+$ rm -f ~/.ssh/id_rsa*
+
+compuni@Lab6m219 MINGW64 ~
+$ git config --global user.name
+thiago
+
+compuni@Lab6m219 MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C thiago.antoniassi@edu.unifil.br
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/compuni/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/compuni/.ssh/id_rsa.
+Your public key has been saved in /c/Users/compuni/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:9qX5YoO0D7ZFH8Ih1rVc5lKRTbEgueLHZGakL1hPPY0 thiago.antoniassi@edu.unifil.br
+The key's randomart image is:
++---[RSA 4096]----+
+|           .o.=*o|
+|         . =.*o o|
+|        o = * +. |
+|       . * O E . |
+|        S # o .  |
+|       o.= @ .   |
+|       .ooB .    |
+|       .o++.     |
+|        .o.o.    |
++----[SHA256]-----+
+
+compuni@Lab6m219 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 8692
+
+compuni@Lab6m219 MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/compuni/.ssh/id_rsa (thiago.antoniassi@edu.unifil.br)
+
+compuni@Lab6m219 MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+compuni@Lab6m219 MINGW64 ~
+$ ssh -T git@github.com
+Hi Thiag0123! You've successfully authenticated, but GitHub does not provide shell access.
+
+compuni@Lab6m219 MINGW64 ~
+$ git clone git@github.com:Thiag0123
+Cloning into 'Thiag0123'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+compuni@Lab6m219 MINGW64 ~
+$ git clone git@github.com:Thiag0123/Avalia-oGit
+Cloning into 'Avalia-oGit'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 24 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (24/24), 10.06 KiB | 447.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+
+compuni@Lab6m219 MINGW64 ~
+$
+
+compuni@Lab6m219 MINGW64 ~
+$ cd Avalia-oGit
+
+compuni@Lab6m219 MINGW64 ~/Avalia-oGit (main)
+$
+
+compuni@Lab6m219 MINGW64 ~/Avalia-oGit (main)
+$
+
 
 ### Comandos de José
 Nitro@DESKTOP-BTRMKOS MINGW64 ~
