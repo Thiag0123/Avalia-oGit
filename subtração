@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    inteiro n1, n2
+    escreva ("digite um numero que farei a subtração dos numeros ")
+    leia (n1)
+    escreva ("digite o outro numero ")
+leia (n2)
+(n1-n2)
+escreva ("o resultado foi ", n1-n2)
+  }
+}
